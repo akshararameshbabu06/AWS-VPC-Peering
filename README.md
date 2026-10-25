@@ -48,15 +48,11 @@ VPC peering lets resources in two separate VPCs communicate using private IP add
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/aws-vpc-peering-project.git
-cd aws-vpc-peering-project
+git clone https://github.com/aksharameshbabu06/AWS-VPC-Peering.git
+cd AWS-VPC-Peering
 
 # 2. Review the variables at the top of the script (region, CIDRs, key pair name)
 nano ewb-vpc-peering.sh
-
-# 3. Make it executable and run
-chmod +x ewb-vpc-peering.sh
-./ewb-vpc-peering.sh
 ```
 
 ## Verifying the Peering
